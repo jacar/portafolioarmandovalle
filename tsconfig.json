@@ -8,6 +8,10 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
+<<<<<<< HEAD
+=======
+    "strictNullChecks": false,
+>>>>>>> d408552 (Initial commit: Portafolio web project)
 
     /* Strictness */
     "strict": true,
@@ -36,7 +40,21 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
+<<<<<<< HEAD
     ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
+=======
+    ".next/types/**/*.ts",
+    "src/styles/global.css"
+  ],
+  "exclude": [
+    "node_modules/*",
+    ".next",
+    "out",
+    "build",
+    "dist",
+    "supabase"
+  ]
+>>>>>>> d408552 (Initial commit: Portafolio web project)
 }

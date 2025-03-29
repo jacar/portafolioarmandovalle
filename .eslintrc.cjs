@@ -5,9 +5,17 @@ const config = {
     // "project": true,
     "project": "./tsconfig.json",
   },
+<<<<<<< HEAD
   "ignorePatterns": ["*.css", "*.scss"],
   "plugins": [
     "@typescript-eslint"
+=======
+  // "ignorePatterns": ["*.css", "*.scss"],
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-hooks"
+>>>>>>> d408552 (Initial commit: Portafolio web project)
   ],
   "globals": {
     "React": "readonly"
@@ -56,6 +64,10 @@ const config = {
     "import/no-named-as-default-member": "error",
     "react/no-unknown-property": "off",
     "@typescript-eslint/ban-ts-comment": "off",
+<<<<<<< HEAD
+=======
+    "@typescript-eslint/no-empty-object-type": "off",
+>>>>>>> d408552 (Initial commit: Portafolio web project)
   },
   "env": {
     "browser": true,
